@@ -1,4 +1,4 @@
 Cactus-rsync
 ============
 
-This application was developed by Nils Strelow as part of his intership at Cactus eSecurity GmbH
+This application was developed by Nils Strelow as part of his internship at Cactus eSecurity GmbH
