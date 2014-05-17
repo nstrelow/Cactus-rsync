@@ -14,6 +14,9 @@ import android.preference.PreferenceScreen;
 public class Settings extends PreferenceActivity implements
         OnPreferenceChangeListener {
 
+    SharedPreferences prefs = PreferenceManager
+            .getDefaultSharedPreferences(RsyncInterface.context);
+
     public static final String LOCAL_SYNCFOLDER_PATH_PREF = "pref_lcl_syncfolder_path";
     String lclSyncPath = prefs.getString(LOCAL_SYNCFOLDER_PATH_PREF,
             "cactussync");
@@ -27,8 +30,7 @@ public class Settings extends PreferenceActivity implements
     public static final String SSH_KEY_PATH_PREF = "pref_ssh_key_path";
     String sshKeyPath = prefs.getString(SSH_KEY_PATH_PREF, "/path/to/sshkey");
     public static final String HAS_PREF_CHANGED_EXTRA = "has_pref_changed";
-    SharedPreferences prefs = PreferenceManager
-            .getDefaultSharedPreferences(RsyncInterface.context);
+
     private EditTextPreference mLocalSyncfolderPathEdPref;
     private EditTextPreference mServerSyncfolderPathEdPref;
     private EditTextPreference mUsernameEdPref;
