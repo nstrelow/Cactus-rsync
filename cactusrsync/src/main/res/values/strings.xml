@@ -2,7 +2,7 @@
 <resources>
 
     <!-- Main Interface -->
-    <string name="app_name">Cactusync</string>
+    <string name="app_name">Cactus rsync</string>
     <string name="menu_settings">Settings</string>
     <string name="bt_start_sync">Start Sync</string>
     <string name="toast_no_internet">No Internet available. Please connect to network.</string>
