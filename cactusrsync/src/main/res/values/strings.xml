@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main Interface -->
+    <string name="app_name">Cactusync</string>
+    <string name="menu_settings">Settings</string>
+    <string name="bt_start_sync">Start Sync</string>
+    <string name="toast_no_internet">No Internet available. Please connect to network.</string>
+    <string name="bt_open_lcl_syncfolder">Open local Syncfolder</string>
+    <string name="bt_clear_log">Clear log</string>
+    <!-- Settings -->
+
+    <string name="title_environment">Environment</string>
+    <string name="default_lcl_syncfolder">cactussync</string>
+    <string name="dialog_title_lcl_syncfolder">Path of local syncfolder</string>
+    <string name="dialog_msg_lcl_syncfolder">Please enter your new local syncfolder. This folder should not already exist. It will be created on your external storage.</string>
+    <string name="title_lcl_syncfolder">Local syncfolder</string>
+    <string name="sum_lcl_syncfolder">cactussync</string>
+
+    <string name="default_server_syncfolder">/path/to/server/syncdir</string>
+    <string name="dialog_title_server_syncfolder">Path of server syncfolder</string>
+    <string name="dialog_msg_server_syncfolder">Please enter the server directory path, which is to sync on your device.</string>
+    <string name="title_server_syncfolder">Server syncfolder</string>
+    <string name="sum_server_syncfolder">/path/to/server/syncdir</string>
+
+    <string name="default_server_ip">xx.xx.xx.xx</string>
+    <string name="dialog_title_server_ip">Server IP</string>
+    <string name="dialog_msg_server_ip">Please enter the IP of your server.</string>
+    <string name="title_server_ip">Server IP</string>
+    <string name="sum_server_ip">xx.xx.xx.xx</string>
+
+    <string name="default_username">user</string>
+    <string name="dialog_title_username">Username</string>
+    <string name="dialog_msg_username">Please enter the your username on the server.</string>
+    <string name="title_username">Username</string>
+    <string name="sum_username">user</string>
+
+    <string name="default_ssh_key_path">/path/to/sshkey</string>
+    <string name="dialog_title_ssh_key_path">SSH key path</string>
+    <string name="dialog_msg_ssh_key_path">Please enter the path of your dropbear ssh key on your external storage.</string>
+    <string name="title_ssh_key_path">SSH key path</string>
+    <string name="sum_ssh_key_path">path/to/sshkey</string>
+
+    <string name="title_about">About</string>
+
+</resources>

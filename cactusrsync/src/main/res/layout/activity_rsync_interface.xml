@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RsyncInterface">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bt_start_sync"
+        android:layout_alignParentLeft="true">
+
+        <TextView
+            android:id="@+id/rsync_log"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/bt_start_sync"
+        android:layout_width="wrap_content"
+        android:layout_height="48dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:onClick="onClickStart"
+        android:text="@string/bt_start_sync" />
+
+    <Button
+        android:id="@+id/bt_clear_log"
+        android:layout_width="wrap_content"
+        android:layout_height="48dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:onClick="clearLogClick"
+        android:text="@string/bt_clear_log" />
+
+</RelativeLayout>

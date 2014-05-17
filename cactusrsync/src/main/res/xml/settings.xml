@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/title_environment">
+        <EditTextPreference
+            android:defaultValue="@string/default_lcl_syncfolder"
+            android:dialogMessage="@string/dialog_msg_lcl_syncfolder"
+            android:dialogTitle="@string/dialog_title_lcl_syncfolder"
+            android:key="pref_lcl_syncfolder_path"
+            android:summary="@string/sum_lcl_syncfolder"
+            android:title="@string/title_lcl_syncfolder" />
+        <EditTextPreference
+            android:defaultValue="@string/default_server_syncfolder"
+            android:dialogMessage="@string/dialog_msg_server_syncfolder"
+            android:dialogTitle="@string/dialog_title_server_syncfolder"
+            android:key="pref_server_syncfolder_path"
+            android:summary="@string/sum_server_syncfolder"
+            android:title="@string/title_server_syncfolder" />
+        <EditTextPreference
+            android:defaultValue="@string/default_username"
+            android:dialogMessage="@string/dialog_msg_username"
+            android:dialogTitle="@string/dialog_title_username"
+            android:key="pref_username"
+            android:summary="@string/sum_username"
+            android:title="@string/title_username" />
+        <EditTextPreference
+            android:defaultValue="@string/default_server_ip"
+            android:dialogMessage="@string/dialog_msg_server_ip"
+            android:dialogTitle="@string/dialog_title_server_ip"
+            android:key="pref_server_ip"
+            android:summary="@string/sum_server_ip"
+            android:title="@string/title_server_ip" />
+        <EditTextPreference
+            android:defaultValue="@string/default_ssh_key_path"
+            android:dialogMessage="@string/dialog_msg_ssh_key_path"
+            android:dialogTitle="@string/dialog_title_ssh_key_path"
+            android:key="pref_ssh_key_path"
+            android:summary="@string/sum_ssh_key_path"
+            android:title="@string/title_ssh_key_path" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/title_about">
+        <Preference
+            android:summary="© 2013, Nils Strelow @CACTUS eSecurity GmbH"
+            android:title="Copyright" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

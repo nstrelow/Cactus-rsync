@@ -1,0 +1,10 @@
+# This is a configuration file for ProGuard.
+# http://proguard.sourceforge.net/index.html#manual/usage.html
+-optimizations code/simplification/arithmetic,!code/simplification/cast,!field/*,!class/merging/*
+-optimizationpasses 10
+-allowaccessmodification
+-dontpreverify
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-verbose
